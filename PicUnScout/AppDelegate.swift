@@ -9,7 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow()
 
-        let viewController = ViewController()
+        let viewController = FeedVC()
 
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()

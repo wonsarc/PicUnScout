@@ -8,22 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		41AEFEA82C8DD830001FF32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFEA72C8DD830001FF32F /* AppDelegate.swift */; };
-		41AEFEAC2C8DD830001FF32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFEAB2C8DD830001FF32F /* ViewController.swift */; };
 		41AEFEB12C8DD832001FF32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AEFEB02C8DD832001FF32F /* Assets.xcassets */; };
 		41AEFEB42C8DD832001FF32F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41AEFEB32C8DD832001FF32F /* Base */; };
+		41AEFEBF2C8DE746001FF32F /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFEBE2C8DE746001FF32F /* NetworkClient.swift */; };
+		41AEFEF12C8DED4D001FF32F /* ImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFEF02C8DED4D001FF32F /* ImageDownloadService.swift */; };
+		41AEFF072C919EB7001FF32F /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF062C919EB7001FF32F /* ImageService.swift */; };
+		41AEFF092C919EFD001FF32F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF082C919EFD001FF32F /* Image.swift */; };
+		41AEFF0D2C91A030001FF32F /* SingleImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF0C2C91A030001FF32F /* SingleImageVC.swift */; };
+		41AEFF162C91E993001FF32F /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF152C91E993001FF32F /* FeedVC.swift */; };
+		41AEFF1C2C9212E6001FF32F /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF1B2C9212E6001FF32F /* FeedPresenter.swift */; };
+		41AEFF1E2C921B96001FF32F /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF1D2C921B96001FF32F /* FeedCollectionViewCell.swift */; };
+		41AEFF202C9307F1001FF32F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF1F2C9307F1001FF32F /* User.swift */; };
+		41AEFF222C930807001FF32F /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF212C930807001FF32F /* Url.swift */; };
+		41AEFF242C930926001FF32F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF232C930926001FF32F /* Response.swift */; };
+		41AEFF2C2C932C80001FF32F /* ImageModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF2B2C932C80001FF32F /* ImageModelTests.swift */; };
+		41AEFF412C933759001FF32F /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF402C933759001FF32F /* FeedPresenterTests.swift */; };
+		41AEFF432C9337A7001FF32F /* ImagesListServiceSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF422C9337A7001FF32F /* ImagesListServiceSpy.swift */; };
+		41AEFF452C933A3D001FF32F /* FeedVCSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEFF442C933A3D001FF32F /* FeedVCSpy.swift */; };
+		41AEFF472C93402E001FF32F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41AEFF462C93402E001FF32F /* README.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AEFF2D2C932C80001FF32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AEFE9C2C8DD830001FF32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AEFEA32C8DD830001FF32F;
+			remoteInfo = PicUnScout;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		41AEFEA42C8DD830001FF32F /* PicUnScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicUnScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AEFEA72C8DD830001FF32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41AEFEAB2C8DD830001FF32F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41AEFEB02C8DD832001FF32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41AEFEB32C8DD832001FF32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41AEFEB52C8DD832001FF32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AEFEBE2C8DE746001FF32F /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		41AEFEF02C8DED4D001FF32F /* ImageDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadService.swift; sourceTree = "<group>"; };
+		41AEFF062C919EB7001FF32F /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		41AEFF082C919EFD001FF32F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		41AEFF0C2C91A030001FF32F /* SingleImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC.swift; sourceTree = "<group>"; };
+		41AEFF152C91E993001FF32F /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		41AEFF1B2C9212E6001FF32F /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		41AEFF1D2C921B96001FF32F /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		41AEFF1F2C9307F1001FF32F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		41AEFF212C930807001FF32F /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		41AEFF232C930926001FF32F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		41AEFF292C932C80001FF32F /* PicUnScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicUnScoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AEFF2B2C932C80001FF32F /* ImageModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelTests.swift; sourceTree = "<group>"; };
+		41AEFF402C933759001FF32F /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
+		41AEFF422C9337A7001FF32F /* ImagesListServiceSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListServiceSpy.swift; sourceTree = "<group>"; };
+		41AEFF442C933A3D001FF32F /* FeedVCSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVCSpy.swift; sourceTree = "<group>"; };
+		41AEFF462C93402E001FF32F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		41AEFEA12C8DD830001FF32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AEFF262C932C80001FF32F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +84,9 @@
 		41AEFE9B2C8DD830001FF32F = {
 			isa = PBXGroup;
 			children = (
+				41AEFF462C93402E001FF32F /* README.md */,
 				41AEFEA62C8DD830001FF32F /* PicUnScout */,
+				41AEFF2A2C932C80001FF32F /* PicUnScoutTests */,
 				41AEFEA52C8DD830001FF32F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				41AEFEA42C8DD830001FF32F /* PicUnScout.app */,
+				41AEFF292C932C80001FF32F /* PicUnScoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,13 +103,66 @@
 		41AEFEA62C8DD830001FF32F /* PicUnScout */ = {
 			isa = PBXGroup;
 			children = (
+				41AEFED92C8DEAAE001FF32F /* Models */,
+				41AEFF122C91B531001FF32F /* SearchVC */,
+				41AEFEBD2C8DE734001FF32F /* Services */,
 				41AEFEA72C8DD830001FF32F /* AppDelegate.swift */,
-				41AEFEAB2C8DD830001FF32F /* ViewController.swift */,
 				41AEFEB02C8DD832001FF32F /* Assets.xcassets */,
 				41AEFEB22C8DD832001FF32F /* LaunchScreen.storyboard */,
 				41AEFEB52C8DD832001FF32F /* Info.plist */,
 			);
 			path = PicUnScout;
+			sourceTree = "<group>";
+		};
+		41AEFEBD2C8DE734001FF32F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				41AEFEEF2C8DED3A001FF32F /* ImageService */,
+				41AEFEBE2C8DE746001FF32F /* NetworkClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		41AEFED92C8DEAAE001FF32F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41AEFF082C919EFD001FF32F /* Image.swift */,
+				41AEFF1F2C9307F1001FF32F /* User.swift */,
+				41AEFF212C930807001FF32F /* Url.swift */,
+				41AEFF232C930926001FF32F /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41AEFEEF2C8DED3A001FF32F /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
+				41AEFEF02C8DED4D001FF32F /* ImageDownloadService.swift */,
+				41AEFF062C919EB7001FF32F /* ImageService.swift */,
+			);
+			path = ImageService;
+			sourceTree = "<group>";
+		};
+		41AEFF122C91B531001FF32F /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				41AEFF152C91E993001FF32F /* FeedVC.swift */,
+				41AEFF1B2C9212E6001FF32F /* FeedPresenter.swift */,
+				41AEFF1D2C921B96001FF32F /* FeedCollectionViewCell.swift */,
+				41AEFF0C2C91A030001FF32F /* SingleImageVC.swift */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		41AEFF2A2C932C80001FF32F /* PicUnScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AEFF2B2C932C80001FF32F /* ImageModelTests.swift */,
+				41AEFF402C933759001FF32F /* FeedPresenterTests.swift */,
+				41AEFF422C9337A7001FF32F /* ImagesListServiceSpy.swift */,
+				41AEFF442C933A3D001FF32F /* FeedVCSpy.swift */,
+			);
+			path = PicUnScoutTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +185,24 @@
 			productReference = 41AEFEA42C8DD830001FF32F /* PicUnScout.app */;
 			productType = "com.apple.product-type.application";
 		};
+		41AEFF282C932C80001FF32F /* PicUnScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AEFF2F2C932C80001FF32F /* Build configuration list for PBXNativeTarget "PicUnScoutTests" */;
+			buildPhases = (
+				41AEFF252C932C80001FF32F /* Sources */,
+				41AEFF262C932C80001FF32F /* Frameworks */,
+				41AEFF272C932C80001FF32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AEFF2E2C932C80001FF32F /* PBXTargetDependency */,
+			);
+			name = PicUnScoutTests;
+			productName = PicUnScoutTests;
+			productReference = 41AEFF292C932C80001FF32F /* PicUnScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +215,10 @@
 				TargetAttributes = {
 					41AEFEA32C8DD830001FF32F = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					41AEFF282C932C80001FF32F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41AEFEA32C8DD830001FF32F;
 					};
 				};
 			};
@@ -110,6 +236,7 @@
 			projectRoot = "";
 			targets = (
 				41AEFEA32C8DD830001FF32F /* PicUnScout */,
+				41AEFF282C932C80001FF32F /* PicUnScoutTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +251,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41AEFF272C932C80001FF32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AEFF472C93402E001FF32F /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -131,12 +266,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41AEFEAC2C8DD830001FF32F /* ViewController.swift in Sources */,
+				41AEFF1E2C921B96001FF32F /* FeedCollectionViewCell.swift in Sources */,
 				41AEFEA82C8DD830001FF32F /* AppDelegate.swift in Sources */,
+				41AEFF162C91E993001FF32F /* FeedVC.swift in Sources */,
+				41AEFF0D2C91A030001FF32F /* SingleImageVC.swift in Sources */,
+				41AEFF242C930926001FF32F /* Response.swift in Sources */,
+				41AEFF1C2C9212E6001FF32F /* FeedPresenter.swift in Sources */,
+				41AEFEBF2C8DE746001FF32F /* NetworkClient.swift in Sources */,
+				41AEFF092C919EFD001FF32F /* Image.swift in Sources */,
+				41AEFEF12C8DED4D001FF32F /* ImageDownloadService.swift in Sources */,
+				41AEFF222C930807001FF32F /* Url.swift in Sources */,
+				41AEFF202C9307F1001FF32F /* User.swift in Sources */,
+				41AEFF072C919EB7001FF32F /* ImageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AEFF252C932C80001FF32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AEFF432C9337A7001FF32F /* ImagesListServiceSpy.swift in Sources */,
+				41AEFF452C933A3D001FF32F /* FeedVCSpy.swift in Sources */,
+				41AEFF2C2C932C80001FF32F /* ImageModelTests.swift in Sources */,
+				41AEFF412C933759001FF32F /* FeedPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AEFF2E2C932C80001FF32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AEFEA32C8DD830001FF32F /* PicUnScout */;
+			targetProxy = 41AEFF2D2C932C80001FF32F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		41AEFEB22C8DD832001FF32F /* LaunchScreen.storyboard */ = {
@@ -333,6 +497,44 @@
 			};
 			name = Release;
 		};
+		41AEFF302C932C80001FF32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQNTWDSGK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonsarc.PicUnScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicUnScout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PicUnScout";
+			};
+			name = Debug;
+		};
+		41AEFF312C932C80001FF32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQNTWDSGK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonsarc.PicUnScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicUnScout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PicUnScout";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -350,6 +552,15 @@
 			buildConfigurations = (
 				41AEFEB92C8DD832001FF32F /* Debug */,
 				41AEFEBA2C8DD832001FF32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AEFF2F2C932C80001FF32F /* Build configuration list for PBXNativeTarget "PicUnScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AEFF302C932C80001FF32F /* Debug */,
+				41AEFF312C932C80001FF32F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
